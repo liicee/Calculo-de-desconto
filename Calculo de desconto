@@ -1,0 +1,4 @@
+print(" vamos calcular seu desconto!")
+produto= float(input(" digite o preco do seu produto:    "))
+desconto= float(input(" digite o desconto do seu produto:    "))
+print(" seu desconto e", produto*desconto/100 % produto)
